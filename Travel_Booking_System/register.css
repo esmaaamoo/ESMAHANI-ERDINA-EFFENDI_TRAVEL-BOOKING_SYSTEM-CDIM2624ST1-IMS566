@@ -1,0 +1,91 @@
+html, body {
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url("background tree.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: rgba(9, 9, 9, 0.85);
+  padding: 0.75rem 1rem;
+}
+
+.navbar-brand, .navbar-nav .nav-link.active {
+  color: #fff ;
+  font-weight: 500;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffc107 ;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+.section-form {
+  margin: 120px auto 60px; 
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgb(17, 11, 11);
+}
+
+.success-message {
+  margin-top: 1.5rem; 
+  display: none;
+  text-align: center;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.form-control {
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.95rem;
+}
+
+.form-control:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 5px rgba(239, 227, 7, 0.4);
+}
+
+.register-btn {
+  width: 50%;
+  padding: 10px 20px;
+  background-color: #ffc107;
+  color: #0c0c0c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.register-btn:hover {
+  background-color: #ffc107;
+}
+
+footer {
+  background-color: #0c0c0c;
+  color: #fff;
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  margin-top: auto;
+}
